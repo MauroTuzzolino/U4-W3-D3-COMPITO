@@ -18,7 +18,7 @@ public class Persona {
     @Column(nullable = false)
     private String cognome;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String email;
 
     @Column(name = "data_nascita")
